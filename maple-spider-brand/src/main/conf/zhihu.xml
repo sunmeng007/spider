@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+
+<!-- This xml is provider the regex -->
+
+<configuration>
+	<property>
+		<name>questionTitle</name>
+		<value><![CDATA[<h2 class="zm-item-title zm-editable-content">.*?</h2>]]></value>
+		<description></description>
+	</property>
+	<property>
+		<name>zm_item_answer</name>
+		<value><![CDATA[<div .* class="zm-item-answer " .*>.*</div>]]></value>
+		<description></description>
+	</property>
+	<property>
+		<name>count</name>
+		<value><![CDATA[<div class="fixed-summary zm-editable-content clearfix" *.>*.</div>]]></value>
+		<description></description>
+	</property>
+	<property>
+		<name>content</name>
+		<value><![CDATA[<div class="fixed-summary zm-editable-content clearfix" .*?>.*?</div>]]></value>
+		<description></description>
+	</property>
+</configuration>

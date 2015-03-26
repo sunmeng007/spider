@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+
+<!-- This xml is provider the regex  -->
+
+<configuration>
+	<property>
+		<name>askTitle</name>
+		<value><![CDATA[<span class="ask-title">.*?</span>]]></value>
+		<description></description>
+	</property>
+		<property>
+		<name>bestAnswer</name>
+		<value><![CDATA[<pre id="best-content-\d+" .*?>.*?</pre>]]></value>
+		<description></description>
+	</property>
+		<property>
+		<name>otherAnswers</name>
+		<value><![CDATA[<pre id="answer-content-\d+" .*?>.*?</pre>]]></value>
+		<description></description>
+	</property>
+</configuration>

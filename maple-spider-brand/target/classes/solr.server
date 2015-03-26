@@ -1,0 +1,2 @@
+server=http://172.16.91.137:8080/kfc/#/collection1
+url=http://172.16.91.137:8080/kfc/collection1/select
